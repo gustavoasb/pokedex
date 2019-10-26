@@ -1,7 +1,24 @@
-import styled from 'styled-components'
+import React, {Component} from 'react';
+import {HeaderDiv, BlackSplitter, NavbarItem, SemiCircle, WhiteSpace} from './styles';
+import {Link} from '@reach/router'
 
-export const Header = styled.header`
-    overflow: hidden;
-    background-color: #f0134d;
-    padding: 20px 10px;
-`;
+class Header extends Component {
+  render(){
+  return(
+      <>
+        <HeaderDiv>
+            <BlackSplitter></BlackSplitter>
+            <SemiCircle>
+                <WhiteSpace>
+                </WhiteSpace>
+                <WhiteSpace>    
+                </WhiteSpace>
+            </SemiCircle>
+            <BlackSplitter></BlackSplitter>
+        </HeaderDiv>
+      </>
+    );
+  }
+}
+
+export default Header;
