@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Profile extends Component {
+class NotFound extends Component {
   render(){
   return(
       <>
@@ -9,4 +9,4 @@ class Profile extends Component {
   }
 }
 
-export default Profile;
+export default NotFound;
