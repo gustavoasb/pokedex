@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Router} from '@reach/router'
-import logo from './logo.svg';
 import './App.css';
 import Profile from './pages/profile';
 import Pokemon from './pages/pokemon';
